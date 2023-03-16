@@ -1,0 +1,26 @@
+{
+  "en": {
+    "banner_center_text": "Enjoy now your\nfavorite brands with",
+    "last_off": "{0}% off",
+    "end_in": "Ends in",
+    "off": "OFF",
+    "Coupon_title": "Welcome Coupon",
+    "Coupon_desc": "Aplicable to all items\nMin. order {0}€. Valid for {1} days from now. "
+  },
+  "fr": {
+    "banner_center_text": "Profitez maintenant de votre\nLes marques les plus populaires",
+    "last_off": "{0}% Fermer",
+    "end_in": "Terminé dans",
+     "off": "Fermé",
+    "Coupon_title": "Coupon de bienvenue",
+    "Coupon_desc": "Pour tous les projets minutes.\nCommande {0} €. Valable à partir de maintenant pour {1} jours."
+  },
+  "ar": {
+    "banner_center_text": "تتمتع العلامة التجارية المفضلة لديك",
+    "last_off": "{0}% نهاية",
+    "end_in": "نهاية",
+    "off": "قريب",
+    "Coupon_title": "كوبونات الترحيب",
+    "Coupon_desc": "تنطبق على جميع البنود \n ن دقيقة . أجل {0} € . صالحة لمدة {1} أيام من الآن فصاعدا ."
+  }
+}

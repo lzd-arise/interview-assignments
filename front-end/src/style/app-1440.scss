@@ -1,0 +1,123 @@
+.app {
+  /* font-family: ; */
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+.banner {
+  width: 1440px;
+  height: 300px;
+  background-color: #2d2765;
+  background-image: url("../assets/1440img/bg.svg");
+  background-repeat: no-repeat;
+  padding-right: 60px;
+  box-sizing: border-box;
+
+  // banner 内容
+  .banner-content {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 336px 1fr 534px;
+
+    // 人物图片
+    .banner-avatar {
+      width: 100%;
+    }
+
+    .center-text {
+      color: #fff;
+      font-size: 30px;
+      white-space: pre-wrap;
+      padding-left: 52px;
+      .last-off {
+        font-size: 72px;
+      }
+    }
+
+    .ad-box {
+      /* 计时器 */
+      .calculagraph-container {
+        text-align: right;
+        .calculagraph {
+          display: inline-flex;
+          align-items: center;
+          color: #fff;
+          margin-bottom: 25px;
+          font-size: 16px;
+        }
+        .mark-tag {
+          width: 23px;
+          height: 23px;
+          line-height: 23px;
+          color: #2d2765;
+          background-color: #d7d4fc;
+          font-weight: bold;
+          text-align: center;
+          margin: 0 5px;
+        }
+      }
+      // 欢迎使用 优惠券
+      .welcome {
+        position: relative;
+        height: 150px;
+        background-image: url("../assets/1440img/welcome_bg.svg");
+        background-repeat: no-repeat;
+        .welcome-content {
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          box-sizing: border-box;
+          display: flex;
+          .left-off {
+            text-align: center;
+            display: grid;
+            place-items: center;
+            width: 162px;
+          }
+
+          .welcome-text {
+            padding-top: 22px;
+            padding-right: 20px;
+            padding-bottom: 15px;
+            .title {
+              margin-top: 0;
+              margin-bottom: 6px;
+              font-size: 20px;
+              font-weight: bold;
+            }
+            .description {
+              white-space: pre-wrap;
+              color: #4d5360;
+              font-size: 12px;
+              line-height: 16px;
+            }
+            button[type="button"] {
+              background-color: #000;
+              color: #fff;
+              font-size: 12px;
+              line-height: 16px;
+              border: none;
+              outline: none;
+              cursor: pointer;
+              margin-top: 12px;
+              min-width: 206px;
+              padding: 10px;
+            }
+          }
+        }
+        // 左下角链接
+        .tc {
+          position: absolute;
+          bottom: 25px;
+          right: 20px;
+          font-size: 12px;
+          color: #858b9c;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}

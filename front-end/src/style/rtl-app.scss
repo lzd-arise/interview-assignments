@@ -1,0 +1,18 @@
+.rtl {
+  .banner {
+    transform: scaleX(-1);
+    direction: rtl;
+  }
+
+  .banner-content {
+    transform: scaleX(-1);
+  }
+  .calculagraph-container {
+    text-align: left;
+  }
+
+  .tc {
+    left: 20px;
+    right: inherit;
+  }
+}
